@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `marabar_sys`;
+CREATE DATABASE IF NOT EXISTS `test_sys`;
 USE `test_sys`;
 
 CREATE TABLE `test_table` (
