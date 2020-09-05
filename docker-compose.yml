@@ -13,10 +13,10 @@ services:
       - "3306:3306"  
   web: 
     build: "./web"
-    container_name: php5-marabar
+    container_name: php7-container
     restart: always
     volumes:
-      - ./web:/var/www/html
+      - /home/filipesimon/Projetos/Pessoal:/var/www/html
     ports:
       - "8888:80"
     depends_on:
