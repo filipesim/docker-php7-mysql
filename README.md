@@ -22,13 +22,7 @@ Este é um exemplo básico para criação **rápida** de um ambiente Docker.
   - Docker
   - docker-compose
 
-2. No arquivo docker-compose.yml, troque o caminho descrito em volumes do container php7 (Linha 19) para o caminho em que ficará o seu projeto. Exemplo:
-<br/>
-De: ./home/filipesimon/Projetos/Pessoal:/var/www/html
-<br/>
-Para: ./seu/proprio/caminho:/var/www/html
-
-3. Abra um terminal e execute os seguintes comandos
+2. Abra um terminal e execute os seguintes comandos
 
 ```bash
   
@@ -48,6 +42,13 @@ Para: ./seu/proprio/caminho:/var/www/html
   $ docker-compose up -d
 
 ```
+
+3. No arquivo docker-compose.yml, troque o caminho descrito em volumes do container php7 (Linha 19) para o caminho em que ficará o seu projeto. Exemplo:
+<br/>
+De: ./home/filipesimon/Projetos/Pessoal:/var/www/html
+<br/>
+Para: ./seu/proprio/caminho:/var/www/html
+
 4. Após o processo de instalação finalizar, poderá acessar o servidor pela URL:
 <br/>
 http://localhost:8888
