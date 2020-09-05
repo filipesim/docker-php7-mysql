@@ -47,7 +47,7 @@ Este é um exemplo básico para criação **rápida** de um ambiente Docker.
 
 4. Após o processo de instalação finalizar, poderá acessar o servidor pela URL:
 <br/>
-http://localhost:8888
+http://localhost:8888/seu/proprio/caminho
 
 ---
 
