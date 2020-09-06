@@ -45,11 +45,9 @@ Este é um exemplo básico para criação **rápida** de um ambiente Docker.
 
 3. No arquivo docker-compose.yml, troque o caminho descrito em volumes do container php7 (Linha 19) para o caminho em que ficará o seu projeto. Exemplo:<br/>De: ./home/filipesimon/Projetos/Pessoal:/var/www/html<br/>Para: ./seu/proprio/caminho:/var/www/html
 
-4. Após o processo de instalação finalizar, poderá acessar o servidor pela URL:
-<br/>
-http://localhost:8888/seu/proprio/caminho
+4. Após o processo de instalação finalizar, poderá acessar o servidor pela URL:<br/>http://localhost:8888/seu/proprio/caminho
 
-5. Para se conectar com o banco de dados, acesse sua ferramenta de banco de dados e configure uma nova conexão com as seguintes credênciais:<br/>Host: localhost<br/>Port: 3306<br/>User name: root<br/>Password: root
+5. Para se conectar com o banco de dados, acesse sua ferramenta de banco de dados e configure uma nova conexão com as seguintes credênciais:<br/><br/>**Host:** localhost<br/>**Port:** 3306<br/>**User name:** root<br/>**Password:** root
 ---
 
 ### 📝 License
