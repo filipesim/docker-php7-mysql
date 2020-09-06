@@ -49,6 +49,7 @@ Este é um exemplo básico para criação **rápida** de um ambiente Docker.
 <br/>
 http://localhost:8888/seu/proprio/caminho
 
+5. Para se conectar com o banco de dados, acesse sua ferramenta de banco de dados e configure uma nova conexão com as seguintes credênciais:<br/>Host: localhost<br/>Port: 3306<br/>User name: root<br/>Password: root
 ---
 
 ### 📝 License
